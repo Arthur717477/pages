@@ -1,0 +1,267 @@
+* {
+
+    margin: 0;
+    box-sizing: border-box;
+    font-family: uppercase;
+}
+
+header {
+    height: 40px;
+    background-color: lightgray;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+
+#maen {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: 80px 80px 431px 270px;
+
+}
+
+#maen div {
+    border: solid 1px;
+}
+
+#logo {
+    grid-column: 2;
+}
+
+#nav {
+    grid-column: 3/6;
+}
+
+#menu {
+
+    grid-column: 2;
+    grid-row: 2/4;
+}
+
+#busca {
+    grid-column: 3/6;
+    grid-row: 2;
+}
+
+#banner {
+    background-image: url(https://preview.colorlib.com/theme/ogani/img/hero/banner.jpg);
+    grid-row: 3;
+    grid-column: 3/6;
+    height: 431px;
+    display: flex;
+    align-items: center;
+    padding-left: 75px;
+}
+
+#p1 {
+
+
+
+    background-image: url(https://preview.colorlib.com/theme/ogani/img/categories/cat-1.jpg);
+    grid-row: 4;
+    grid-column: 2;
+}
+
+#p2 {
+    background-image: url(https://preview.colorlib.com/theme/ogani/img/categories/cat-2.jpg);
+    grid-row: 4;
+    grid-column: 3;
+}
+
+#p3 {
+    background-image: url(https://preview.colorlib.com/theme/ogani/img/categories/cat-3.jpg);
+    grid-row: 4;
+    grid-column: 4;
+}
+
+#p4 {
+    background-image: url(https://preview.colorlib.com/theme/ogani/img/categories/cat-4.jpg);
+    grid-row: 4;
+    grid-column: 5;
+}
+
+.nome1 {
+    display: flex;
+
+    justify-content: center;
+    margin-top: 210px;
+    text-align: center;
+    left: 350px;
+    font-size: 18px;
+    color: #1c1c1c;
+    font-weight: 850;
+    font-family: "Cairo", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 12px 0 10px;
+    background: #ffffff;
+    display: block;
+}
+
+.nome2 {
+    display: flex;
+
+    justify-content: center;
+    margin-top: 210px;
+    text-align: center;
+    left: 350px;
+    font-size: 18px;
+    color: #1c1c1c;
+    font-weight: 850;
+    font-family: "Cairo", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 12px 0 10px;
+    background: #ffffff;
+    display: block;
+}
+
+.nome3 {
+    display: flex;
+
+    justify-content: center;
+    margin-top: 210px;
+    text-align: center;
+    left: 350px;
+    font-size: 18px;
+    color: #1c1c1c;
+    font-weight: 850;
+    font-family: "Cairo", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 12px 0 10px;
+    background: #ffffff;
+    display: block;
+
+}
+
+.nome4 {
+    display: flex;
+
+    justify-content: center;
+    margin-top: 210px;
+    text-align: center;
+    left: 350px;
+    font-size: 18px;
+    color: #1c1c1c;
+    font-weight: 850;
+    font-family: "Cairo", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 12px 0 10px;
+    background: #ffffff;
+    display: block;
+}
+
+#banner .hero span {
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 4px;
+    color: #7fad39;
+}
+
+#banner .hero h2 {
+    font-size: 46px;
+    color: #252525;
+    line-height: 52px;
+    font-weight: 700;
+    margin: 10px 0;
+}
+
+#banner .hero p {
+    margin-bottom: 35px;
+    color: #6f6f6f;
+    line-height: 26px;
+}
+
+#busca .search .primary-btn {
+    font-size: 14px;
+    color: #ffffff;
+    font-weight: 800;
+    text-transform: uppercase;
+    display: inline-block;
+    padding: 13px 30px 12px;
+    background: #7fad39;
+    border: none;
+    
+
+
+    height: 50px;
+    height: 48px;
+    width: 100px;
+}
+
+.hero {
+    width: 271px;
+    height: 240px;
+
+}
+
+#busca .pesquisa {
+
+    width: 30%;
+    float: left;
+    font-size: 16px;
+    color: #1c1c1c;
+    font-weight: 700; 
+    position: relative;
+    text-align: center ;
+    align-content: center;}
+
+
+#busca .search input {
+    
+    border: none;
+    font-size: 16px;
+    color: #b2b2b2;
+    padding-left: 20px;
+
+}
+
+#busca .search {
+
+    width: 100%;
+    height: 48px;
+    justify-content: center;
+}
+#busca form{
+
+display: flex;
+
+}
+#nav .navleaf {
+    padding: 24px 0;
+}
+#nav .navleaf ul{
+
+    padding: 0;
+    margin: 0;
+    
+
+
+}
+#nav .navleaf ul li a {
+
+    font-size: 14px;
+	color: #252525;
+	text-transform: uppercase;
+	font-weight: 700;
+	letter-spacing: 2px;
+	
+	transition: all, 0.3s;
+	padding: 5px 0;
+	display: block;
+}
+#nav .navleaf ul li{
+
+    list-style: none;
+	display: inline-block;
+	margin-right: 50px;
+	position: relative;
+}
+#nav ul li:hover>a {
+	color: #7fad39;
+}
